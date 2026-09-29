@@ -1,5 +1,5 @@
 const express = require("express")
-const Tournament = require("../models/Tournament")
+const Tournament = require("../models/tournament")
 
 const router = express.Router()
 
