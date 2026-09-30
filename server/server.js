@@ -9,7 +9,7 @@ const tournamentRoutes = require("./routes/tournamentRoutes");
 const app = express();
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL
+  origin: process.env."https://eco-con-net.vercel.app"
 }));
 
 app.use(express.json());
